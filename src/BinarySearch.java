@@ -2,16 +2,16 @@ public class BinarySearch {
     public static void main(String[] args) {
         int [] arr={-16,-3,1,2,3,5,34,55,67,88,99,100,1145,7785,456667};
         int target=-16;
-        int ans=binearySearch(arr, target);
+        int ans= binarySearch(arr, target);
         System.out.println(ans);
     }
-    static int binearySearch(int[] arr,int target)
+    static int binarySearch(int[] arr, int target)
     {
         int start=0;
         int end=arr.length-1;
 
         while(start<=end){
-            int mid= start+(start-end)/2;
+            int mid= start+(end-start)/2;
             if (arr[mid]<target)
             {
                 end=mid-1;
