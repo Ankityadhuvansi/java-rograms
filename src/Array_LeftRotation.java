@@ -20,7 +20,7 @@ public class Array_LeftRotation {
         return arr;
     }
 }
-//This isfor array list
+//This is for array list
 //    int i=0;
 //    while(i++<d){
 //        int temp=arr.get(0);
