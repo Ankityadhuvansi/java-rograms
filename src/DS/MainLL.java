@@ -14,6 +14,3 @@ public class MainLL {
     }
    
 }
-void main(){
-
-}
