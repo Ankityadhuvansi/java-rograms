@@ -1,5 +1,7 @@
 import java.util.Arrays;
 
+import static java.lang.Integer.MAX_VALUE;
+
 public class Array_LeftRotation {
     public static void main(String[] args) {
         int[] arr={1,2,3,4,5};

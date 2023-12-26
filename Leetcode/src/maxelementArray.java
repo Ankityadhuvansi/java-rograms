@@ -11,6 +11,6 @@ public class maxelementArray {
 
     public static void main(String[] args) {
         long[] arr={1,2,3};
-        maxElement(arr,3);
+        System.out.println(maxElement(arr,3));
     }
 }

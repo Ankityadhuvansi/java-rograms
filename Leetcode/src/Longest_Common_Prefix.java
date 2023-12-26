@@ -1,4 +1,4 @@
-class Solution {
+class Longest_Common_prefix {
     public static void main(String[] args) {
         String[] strs = {"flower","flow","flight"};
         System.out.println(longestCommonPrefix(strs));

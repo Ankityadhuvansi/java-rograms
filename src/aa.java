@@ -3,8 +3,7 @@ class may15
     public static void main(String[] args)
     {
         char ch='a';
-        int ascii= (int)ch;
-        if(ascii>=97 && ascii<=122 )
+        if((int)ch >=97)
         {
             System.out.println("lower case");
         }
