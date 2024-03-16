@@ -1,7 +1,3 @@
-import java.util.HashSet;
-import java.util.Set;
-
-// not correct
 class Happy_Number {
     public static boolean isHappy(int n) {
         int sqSum=0;
